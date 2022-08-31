@@ -1,0 +1,28 @@
+/*<!--index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.-->*/
+body {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+
+.div {
+    width: 200px;
+    height: 100px;
+    border: solid 1px;
+    background: ivory;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    margin-bottom: 10px;
+   box-sizing:border-box;
+}
+.btn {
+    width: 100px;
+    height: 30px;
+    background: burlywood;
+    margin-top: 10px;
+}
